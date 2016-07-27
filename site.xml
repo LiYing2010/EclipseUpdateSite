@@ -3,5 +3,9 @@
    <feature url="features/net.liying.SourceCounter_1.6.0.qualifier.jar" id="net.liying.SourceCounter" version="1.6.0.qualifier">
       <category name="Source Counter"/>
    </feature>
+   <feature url="features/net.liying.CfgKeyGenerator_1.0.0.qualifier.jar" id="net.liying.CfgKeyGenerator" version="1.0.0.qualifier">
+      <category name="CfgKey Generator"/>
+   </feature>
    <category-def name="Source Counter" label="Source Counter"/>
+   <category-def name="CfgKey Generator" label="CfgKey Generator"/>
 </site>
