@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='Update Site' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1473142659926'/>
+    <property name='p2.compressed' value='true'/>
+  </properties>
+  <units size='5'>
+    <unit id='net.liying.CfgKeyGenerator.feature.group' version='1.0.0.201609061517' singleton='false'>
+      <update id='net.liying.CfgKeyGenerator.feature.group' range='[0.0.0,1.0.0.201609061517)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='CfgKey Generator'/>
+        <property name='org.eclipse.equinox.p2.description' value='Source Generate tool which generate configuration key and message key constant string.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='https://github.com/LiYing2010/CfgKeyGenerator'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Li Ying'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='net.liying.CfgKeyGenerator.feature.group' version='1.0.0.201609061517'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='net.liying.CfgKeyGenerator' range='[1.0.0.201609061517,1.0.0.201609061517]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='net.liying.CfgKeyGenerator.feature.jar' range='[1.0.0.201609061517,1.0.0.201609061517]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='https://www.eclipse.org/legal/epl-v10.html' url='https://www.eclipse.org/legal/epl-v10.html'>
+          Copyright (c)2016 LiYing &lt;liying.cn.2010@gmail.com&gt;, licensed under the Eclipse Public License 1.0. &lt;https://www.eclipse.org/legal/epl-v10.html&gt;
+        </license>
+      </licenses>
+      <copyright uri='https://github.com/LiYing2010/CfgKeyGenerator' url='https://github.com/LiYing2010/CfgKeyGenerator'>
+        Copyright (c)2016 by LiYing &lt;liying.cn.2010@gmail.com&gt;.&#xA;All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='Source Counter' version='1.0.0.27A-cLJ0vE7735E3G7555AI'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Source Counter'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='Source Counter' version='1.0.0.27A-cLJ0vE7735E3G7555AI'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='net.liying.SourceCounter.feature.group' range='[1.6.0.201607211148,1.6.0.201607211148]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='net.liying.CfgKeyGenerator' version='1.0.0.201609061517'>
+      <update id='net.liying.CfgKeyGenerator' range='[0.0.0,1.0.0.201609061517)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='CfgKeyGenerator'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='net.liying.CfgKeyGenerator' version='1.0.0.201609061517'/>
+        <provided namespace='osgi.bundle' name='net.liying.CfgKeyGenerator' version='1.0.0.201609061517'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='7'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jdt.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jdt.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.text' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='net.liying.CfgKeyGenerator' version='1.0.0.201609061517'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: net.liying.CfgKeyGenerator;singleton:=true&#xA;Bundle-Version: 1.0.0.201609061517
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='net.liying.CfgKeyGenerator.feature.jar' version='1.0.0.201609061517'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='CfgKey Generator'/>
+        <property name='org.eclipse.equinox.p2.description' value='Source Generate tool which generate configuration key and message key constant string.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='https://github.com/LiYing2010/CfgKeyGenerator'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Li Ying'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='net.liying.CfgKeyGenerator.feature.jar' version='1.0.0.201609061517'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='net.liying.CfgKeyGenerator' version='1.0.0.201609061517'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='net.liying.CfgKeyGenerator' version='1.0.0.201609061517'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='https://www.eclipse.org/legal/epl-v10.html' url='https://www.eclipse.org/legal/epl-v10.html'>
+          Copyright (c)2016 LiYing &lt;liying.cn.2010@gmail.com&gt;, licensed under the Eclipse Public License 1.0. &lt;https://www.eclipse.org/legal/epl-v10.html&gt;
+        </license>
+      </licenses>
+      <copyright uri='https://github.com/LiYing2010/CfgKeyGenerator' url='https://github.com/LiYing2010/CfgKeyGenerator'>
+        Copyright (c)2016 by LiYing &lt;liying.cn.2010@gmail.com&gt;.&#xA;All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='CfgKey Generator' version='1.0.0.2--cLLEvE7735E3K3E5C5G'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='CfgKey Generator'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='CfgKey Generator' version='1.0.0.2--cLLEvE7735E3K3E5C5G'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='net.liying.CfgKeyGenerator.feature.group' range='[1.0.0.201609061517,1.0.0.201609061517]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+  </units>
+</repository>
