@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='Update Site' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1473151560002'/>
+    <property name='p2.timestamp' value='1473237781445'/>
     <property name='p2.compressed' value='true'/>
   </properties>
   <mappings size='3'>
@@ -17,22 +17,22 @@
         <property name='download.size' value='580'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='net.liying.CfgKeyGenerator' version='1.0.0.201609061517'>
-      <properties size='2'>
-        <property name='artifact.size' value='4096'/>
-        <property name='download.size' value='3255181'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='SourceCounter' version='1.7.0.201609061745'>
       <properties size='2'>
         <property name='artifact.size' value='4096'/>
         <property name='download.size' value='2915099'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='net.liying.CfgKeyGenerator' version='1.0.0.201609061517'>
+    <artifact classifier='org.eclipse.update.feature' id='net.liying.CfgKeyGenerator' version='1.1.0.201609071742'>
       <properties size='2'>
         <property name='download.contentType' value='application/zip'/>
-        <property name='download.size' value='551'/>
+        <property name='download.size' value='552'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.liying.CfgKeyGenerator' version='1.1.0.201609071742'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='3256559'/>
       </properties>
     </artifact>
   </artifacts>
